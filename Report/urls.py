@@ -8,6 +8,7 @@ urlpatterns = [
     path('wallet/', views.wallet,name='wallet'),
     path('tax/', views.tax,name='tax'),
     path('transactions/', views.transactions,name='transactions'),
+    path('comparison/', views.comparison,name='comparison'),
     path('news/', views.news,name='news'),
     path('history/<str:coin_name>/', views.history,name='history'),
     path('coins/', views.list_of_coins,name='list_of_coins'),

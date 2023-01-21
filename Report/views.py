@@ -65,6 +65,9 @@ def transactions(request):
     }
     return render(request,"Report/transactions.html",context)
 
+def comparison(request):
+    return render(request,"Report\price comparison.html")
+
 def tax(request):
     return render(request,"Report/tax.html")
 
